@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Second Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom_style.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom_script.js"></script>
+  </head>
+
+  <body>
+    <nav id="sidebar-nav" class="navbar">
+      <div class="navbar-header">
+        <span id="sidebar-title">MENU</span>
+        <a class="to-mainmenu" href="#main_nav" style="display: none"
+          ><i class="fa fa-chevron-left"></i
+        ></a>
+      </div>
+      <ul id="main_nav" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item has-submenu">
+          <a class="nav-link">About</a>
+          <a id="about" class="to-submenu" href="#submenu_about"
+            ><i class="fa fa-chevron-right"></i
+          ></a>
+        </li>
+        <li class="nav-item has-submenu">
+          <a class="nav-link">Adventures</a>
+          <a id="adventure" class="to-submenu" href="#submenu_adventure"
+            ><i class="fa fa-chevron-right"></i
+          ></a>
+        </li>
+        <li class="nav-item has-submenu">
+          <a class="nav-link">Media</a>
+          <a id="media" class="to-submenu" href="#submenu_media"
+            ><i class="fa fa-chevron-right"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+      </ul>
+      <ul id="submenu_about" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Company</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shark Conservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+      </ul>
+      <ul id="submenu_adventure" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Great White Shark Diving</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tiger Shark Diving</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bull Shark Diving Fiji</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">San Ignacio Whale Watching</a>
+        </li>
+      </ul>
+      <ul id="submenu_media" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Film Crews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shark Diver TV</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="body-wrap">
+      <div class="bg-dark">
+        <div class="head-bar">
+          <div class="head-bar-icons">
+            <div class="head-bar-icon-box">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="head-bar-icon-box">
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+            <div class="head-bar-icon-box">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="head-bar-icon-box">
+              <a href="#"><i class="fa-brands fa-yelp"></i></a>
+            </div>
+            <div class="head-bar-icon-box">
+              <a href="#"><i class="fa-solid fa-plane"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-menu-wrapper sticky-top">
+        <div class="main-menu">
+          <div class="site-logo">
+            <a href="#"
+              ><img
+                src="img/shark-diver-logo-header-final@2x.png"
+                alt="Shark Diver"
+            /></a>
+          </div>
+          <nav class="navbar navbar-expand-sm shark-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">ABOUT</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item"><a href="#">OUR COMPANY</a></li>
+                  <li class="dropdown-item">
+                    <a href="#">SHARK CONSERVATION</a>
+                  </li>
+                  <li class="dropdown-item"><a href="#">REVIEWS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">ADVENTURES</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">
+                    <a href="#">GREAT WHITE SHARK DIVING</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">TIGER SHARK DIVING</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">BULL SHARK DIVING FIJI</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#">SAN IGNACIO WHALE WATCHING</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">MEDIA</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item"><a href="#">FILM CREWS</a></li>
+                  <li class="dropdown-item"><a href="#">SHARK DIVER TV</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#sidebar-nav" class="toggle-mobile-menu">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="intro-section">
+        <video autoplay muted loop>
+          <source src="img/mov_bbb.mp4" type="video/mp4" />
+        </video>
+        <div class="video-content-wrapper">
+          <div class="video-content text-center">
+            <h1>SHARK DIVER</h1>
+            <h6>SAFE AND SANE SHARK DIVING</h6>
+          </div>
+        </div>
+      </div>
+      <div class="contact-section">
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              CALL: <span class="phone-number">855.987.4275</span> or
+              <span class="phone-number">619.887.4275</span>
+            </p>
+          </div>
+          <div class="col-md-6 align-right">
+            <button type="button" class="btn btn-shark">
+              EMAIL: CREW@SHARKDIVER.COM
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="symbol-logo">
+        <img src="img/18-year-wreath.png" alt="Symbol Logo" />
+      </div>
+      <div class="part-wrapper text-center">
+        <div class="part-title">
+          <h1>WELCOME TO THE ADVENTURE OF A LIFETIME</h1>
+          <div class="splitter"></div>
+          <h6>
+            GET UP CLOSE AND PERSONAL WITH SHARKS IN THEIR NATURAL HABITAT!
+          </h6>
+        </div>
+        <div class="gallery-wrapper">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-card">
+                <div class="img-wrapper">
+                  <img src="img/great-white.jpg" />
+                  <div class="img-content">
+                    <div class="title">GUADALUPE ISLAND, MEXICO</div>
+                    <div class="content">Great White Sharks</div>
+                  </div>
+                  <button type="button" class="btn btn-more">MORE INFO</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="img-card">
+                <div class="img-wrapper">
+                  <img src="img/tiger-shark.jpg" />
+                  <div class="img-content">
+                    <div class="title">TIGER BEACH, BAHAMAS</div>
+                    <div class="content">Tiger Sharks</div>
+                  </div>
+                  <button type="button" class="btn btn-more">MORE INFO</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="img-card">
+                <div class="img-wrapper">
+                  <img src="img/bull-shark.jpg" />
+                  <div class="img-content">
+                    <div class="title">PACIFIC HARBOUR, FIJI</div>
+                    <div class="content">Bull Sharks</div>
+                  </div>
+                  <button type="button" class="btn btn-more">MORE INFO</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="img-card">
+                <div class="img-wrapper">
+                  <img src="img/whale-adventure.jpg" />
+                  <div class="img-content">
+                    <div class="title">SAN IGNACIO GRAY WHALE ADVENTURE</div>
+                    <div class="content">Gray Whales</div>
+                  </div>
+                  <button type="button" class="btn btn-more">MORE INFO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="part-wrapper text-center">
+        <div class="part-title">
+          <h5>YOU'VE SEEN US ON...</h5>
+        </div>
+        <div class="gallery-wrapper">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img src="img/spike.jpg" title="spike" />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img src="img/discovery_hd_us.png" title="discovery hand us" />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img src="img/cnn.png" title="cnn" />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img
+                  src="img/Animal_Planet_Logo.png"
+                  title="Animal Planet Logo"
+                />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img
+                  src="img/gra-sharkweekpromo.jpg"
+                  title="gra-sharkweekpromo"
+                />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="logo-img-wrapper">
+                <img src="img/wsj.jpg" title="wsj" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="part-wrapper">
+        <div class="part-title text-center">
+          <h1>CONSERVATION SHARK DIVING</h1>
+          <div class="splitter"></div>
+          <h6>WELCOME TO SHARK DIVER</h6>
+        </div>
+        <div class="gallery-wrapper">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Experience your own "Real Shark Week" and find out what it is
+                like to come face to face with the Oceans most feared predators.
+                When it comes to shark conservation efforts and shark diving
+                industry lead protocols for 'safe and sane shark diving' Shark
+                Diver has been at the forefront of this growing shark cage
+                diving industry trend. Over the past 20 years, commercial shark
+                diving has grown and matured to offer the very best of safe and
+                remarkable shark encounters worldwide.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                The goals for us here at Shark Diver are to be advocates for our
+                sharks and our cage diving industry while delivering top shark
+                species encounters to our divers, media outlets, and research
+                partners.<br />We call it Conservation Shark Diving.<br />Divers
+                and non-divers alike are the heart of Conservation Shark Diving.
+                They are folks like you, who love sharks and who care about the
+                future of these magnificent animals - YOU are Shark Diver.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="part-wrapper text-center">
+        <div class="carousel slide shark-diver-review" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <h3>
+                  <strong>"</strong>Shark Diver is the best. Everyone is so
+                  friendly, accommodating, and passionate about the sharks. Trip
+                  #4 is booked!<strong>"</strong>
+                </h3>
+                <p><strong>Vancouver,</strong> British Columbia, Canada</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>
+                  <strong>"</strong>Trip was amazing. Much better than I could
+                  ever have imagined. I recommend it to everybody.<strong
+                    >"</strong
+                  >
+                </h3>
+                <p><strong>Daniel,</strong> Poland</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>
+                  <strong>"</strong>A surreal experience that will take your
+                  breath away, even with a regulator!<strong>"</strong>
+                </h3>
+                <p><strong>Roy,</strong> Long Island, NY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-review">READ MORE REVIEWS</button>
+      </div>
+    </div>
+    <button type="button" class="to-top" title="go to top">
+      <i class="fa fa-chevron-up"></i>
+    </button>
+    <div class="body-block" style="display: none"></div>
+  </body>
+</html>
